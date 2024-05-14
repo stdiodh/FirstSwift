@@ -1,6 +1,6 @@
 ## Hello World
 
-간단한 학번 + 이름을 출력해주는 앱 [설명](https://blog.naver.com/stdio_dh/223383310813)
+간단한 학번 + 이름을 출력해주는 앱 [기능 설명](https://blog.naver.com/stdio_dh/223383310813)
 <br><br><br>
 
 ## imgView
@@ -30,7 +30,7 @@
 
 ## mapView
 
-사용자의 경도, 위도 및 고도와 같은 위치 정보를 이용하여 지도에 핀을 만들어주는 앱 <br>[설명](https://blog.naver.com/stdio_dh/223442785145)
+사용자의 경도, 위도 및 고도와 같은 위치 정보를 이용하여 지도에 핀을 만들어주는 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223442785145)
 <br><br><br>
 
 
