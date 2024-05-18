@@ -35,7 +35,7 @@
 
 ## pageControll
 
-여러 페이지 중에서 현재 페이지를 알려 주는 역할 구현한 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223442785145)
+여러 페이지 중에서 현재 페이지를 알려 주는 역할 구현한 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223448179144)
 <br><br><br>
 
 ## tabBar
