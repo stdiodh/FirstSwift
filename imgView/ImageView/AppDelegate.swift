@@ -1,3 +1,10 @@
+//
+//  AppDelegate.swift
+//  ImageView
+//
+//  Created by Ho-Jeong Song on 2022/11/11.
+//
+
 import UIKit
 
 @main

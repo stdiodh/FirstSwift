@@ -13,11 +13,8 @@
 		B512CB84291E7F2D00616708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B512CB82291E7F2D00616708 /* Main.storyboard */; };
 		B512CB86291E7F3500616708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B512CB85291E7F3500616708 /* Assets.xcassets */; };
 		B512CB89291E7F3500616708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B512CB87291E7F3500616708 /* LaunchScreen.storyboard */; };
-		E3D6848E2BABEC860065AFE3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D684892BABEC860065AFE3 /* 1.png */; };
-		E3D6848F2BABEC860065AFE3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D6848A2BABEC860065AFE3 /* 2.png */; };
-		E3D684902BABEC860065AFE3 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D6848B2BABEC860065AFE3 /* 4.png */; };
-		E3D684912BABEC860065AFE3 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D6848C2BABEC860065AFE3 /* 5.png */; };
-		E3D684922BABEC860065AFE3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D6848D2BABEC860065AFE3 /* 3.png */; };
+		B512CBB2291E82F700616708 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B512CBB0291E82F700616708 /* lamp_on.png */; };
+		B512CBB3291E82F700616708 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B512CBB1291E82F700616708 /* lamp_off.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +26,8 @@
 		B512CB85291E7F3500616708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B512CB88291E7F3500616708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B512CB8A291E7F3500616708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3D684892BABEC860065AFE3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		E3D6848A2BABEC860065AFE3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		E3D6848B2BABEC860065AFE3 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		E3D6848C2BABEC860065AFE3 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		E3D6848D2BABEC860065AFE3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		B512CBB0291E82F700616708 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		B512CBB1291E82F700616708 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +60,8 @@
 		B512CB7B291E7F2D00616708 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
-				E3D684892BABEC860065AFE3 /* 1.png */,
-				E3D6848A2BABEC860065AFE3 /* 2.png */,
-				E3D6848D2BABEC860065AFE3 /* 3.png */,
-				E3D6848B2BABEC860065AFE3 /* 4.png */,
-				E3D6848C2BABEC860065AFE3 /* 5.png */,
+				B512CBB1291E82F700616708 /* lamp_off.png */,
+				B512CBB0291E82F700616708 /* lamp_on.png */,
 				B512CB7C291E7F2D00616708 /* AppDelegate.swift */,
 				B512CB7E291E7F2D00616708 /* SceneDelegate.swift */,
 				B512CB80291E7F2D00616708 /* ViewController.swift */,
@@ -140,12 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3D684902BABEC860065AFE3 /* 4.png in Resources */,
+				B512CBB2291E82F700616708 /* lamp_on.png in Resources */,
 				B512CB89291E7F3500616708 /* LaunchScreen.storyboard in Resources */,
-				E3D6848E2BABEC860065AFE3 /* 1.png in Resources */,
-				E3D684922BABEC860065AFE3 /* 3.png in Resources */,
-				E3D6848F2BABEC860065AFE3 /* 2.png in Resources */,
-				E3D684912BABEC860065AFE3 /* 5.png in Resources */,
+				B512CBB3291E82F700616708 /* lamp_off.png in Resources */,
 				B512CB86291E7F3500616708 /* Assets.xcassets in Resources */,
 				B512CB84291E7F2D00616708 /* Main.storyboard in Resources */,
 			);
