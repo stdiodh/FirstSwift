@@ -1,4 +1,4 @@
-## Hello World
+## helloSwift
 
 간단한 학번 + 이름을 출력해주는 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223383310813)
 <br><br><br>
@@ -43,4 +43,8 @@
 여러 개 뷰를 이동하여 보여주는 것 구현한 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223448287613)
 <br><br><br>
 
+## navigation
+
+화면을 전환하고 동시에 데이터도 전달 되게 해주는 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223457244041)
+<br><br><br>
 
