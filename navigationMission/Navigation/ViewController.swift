@@ -75,14 +75,10 @@ class ViewController: UIViewController, EditDelegate  {
                 newWidth = imgView.frame.width/scale
                 newHeight = imgView.frame.height/scale
                 imgView.frame.size = CGSize(width: newWidth, height: newHeight)
-            } else {
-                
-            }
-            
+            } else {}
             print("Zoom: false")
         }
     }
-    
 }
 
 
