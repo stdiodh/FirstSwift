@@ -16,6 +16,7 @@
 		E362A3442C167A0600404105 /* AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362A3432C167A0600404105 /* AudioTests.swift */; };
 		E362A34E2C167A0600404105 /* AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362A34D2C167A0600404105 /* AudioUITests.swift */; };
 		E362A3502C167A0600404105 /* AudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362A34F2C167A0600404105 /* AudioUITestsLaunchTests.swift */; };
+		E362A35D2C168D0500404105 /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E362A35C2C168D0500404105 /* Sicilian_Breeze.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E362A3492C167A0600404105 /* AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E362A34D2C167A0600404105 /* AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUITests.swift; sourceTree = "<group>"; };
 		E362A34F2C167A0600404105 /* AudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E362A35C2C168D0500404105 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E362A32B2C167A0500404105 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				E362A35C2C168D0500404105 /* Sicilian_Breeze.mp3 */,
 				E362A32C2C167A0500404105 /* AppDelegate.swift */,
 				E362A32E2C167A0500404105 /* SceneDelegate.swift */,
 				E362A3302C167A0500404105 /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E362A3362C167A0600404105 /* Assets.xcassets in Resources */,
+				E362A35D2C168D0500404105 /* Sicilian_Breeze.mp3 in Resources */,
 				E362A3392C167A0600404105 /* Base in Resources */,
 				E362A3342C167A0500404105 /* Base in Resources */,
 			);
