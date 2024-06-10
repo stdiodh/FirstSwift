@@ -7,8 +7,8 @@
 
 import UIKit
 
-var items = ["책 구매", "철수와 약속", "스터디 준비하기"]
-var itemsImageFile = ["cart.png", "clock.png", "pencil.png"]
+var items = ["책 구매", "철수와 약속", "스터디 준비하기", "농구 하기"]
+var itemsImageFile = ["cart.png", "clock.png", "pencil.png", "basketball.png"]
 
 class TableViewController: UITableViewController {
 
