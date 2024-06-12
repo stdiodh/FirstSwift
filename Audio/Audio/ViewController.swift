@@ -34,6 +34,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     var progressTimer : Timer!
     
     let timePlayerSelector:Selector = #selector(ViewController.updatePlayTime)
+    let timeRecordSelector:Selector = #selector(ViewController.updateRecordTime)
     
     
     override func viewDidLoad() {
@@ -72,6 +73,24 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
             print("Error-initRecord : \(error)")
         }
         audioRecorder.delegate = self
+        
+        slVolume.value = 1.0
+        audioPlayer.volume = slVolume.value
+        lblEndTime.text = convertNSTimeInterval2String(0)
+        lblCurrentTime.text = convertNSTimeInterval2String(0)
+        setPlayButtons(false, pause: false, stop: false)
+        let session = AVAudioSession.sharedInstance()
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playAndRecord, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch let error as NSError {
+            print(" Error-setCategory : \(error)")
+        }
+        do {
+            try session.setActive(true)
+        } catch let error as NSError {
+            print(" Error-setActive : \(error)")
+        }
     }
     
     func initPlay() {
@@ -146,12 +165,44 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     }
     
     @IBAction func swRecordMode(_ sender: UISwitch) {
+        if sender.isOn {
+            audioPlayer.stop()
+            audioPlayer.currentTime=0
+            lblRecordTime!.text = convertNSTimeInterval2String(0)
+            isRecordMode = true
+            btnRecord.isEnabled = true
+            lblRecordTime.isEnabled = true
+        } else {
+            isRecordMode = false
+            btnRecord.isEnabled = false
+            lblRecordTime.isEnabled = false
+            lblRecordTime.text = convertNSTimeInterval2String(0)
+        }
+        selectAudioFile()
+        if !isRecordMode {
+            initPlay()
+        } else {
+            initRecord()
+        }
     }
     
     @IBAction func btnRecord(_ sender: UIButton) {
+        if (sender as AnyObject).titleLabel?.text == "Record" {
+            audioRecorder.record()
+            (sender as AnyObject).setTitle("Stop", for: UIControl.State())
+            progressTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: timeRecordSelector, userInfo: nil, repeats: true)
+        } else {
+            audioRecorder.stop()
+            progressTimer.invalidate()
+            (sender as AnyObject).setTitle("Record", for: UIControl.State())
+            btnPlay.isEnabled = true
+            initPlay()
+        }
     }
     
-    
+    @objc func updateRecordTime() {
+        lblRecordTime.text = convertNSTimeInterval2String(audioRecorder.currentTime)
+    }
     
 }
 
