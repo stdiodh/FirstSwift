@@ -48,3 +48,17 @@
 화면을 전환하고 동시에 데이터도 전달 되게 해주는 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223457244041)
 <br><br><br>
 
+## MoviePlayer
+
+앱 내부의 비디오 파일이나 외부에 링크된 비디오 파일도 열 수 있는 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223464958503)
+<br><br><br>
+
+## Table
+
+알림 앱, 메모장 앱에서 자주 사용하는 목록 기능을 구현한 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223472216128)
+<br><br><br>
+
+## Audio
+
+오디오 재생 및 녹음 앱 <br>[기능 설명](https://blog.naver.com/stdio_dh/223476825054)
+<br><br><br>
