@@ -1,3 +1,10 @@
+//
+//  SceneDelegate.swift
+//  ImageView
+//
+//  Created by DH on 2024/03/18.
+//
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
