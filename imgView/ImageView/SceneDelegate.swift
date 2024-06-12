@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ImageView
 //
-//  Created by Ho-Jeong Song on 2022/11/11.
+//  Created by DH on 2024/03/18.
 //
 
 import UIKit
