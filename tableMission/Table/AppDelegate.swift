@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Table
+//  table
 //
-//  Created by bglee on 2022/11/08.
+//  Created by DH on 6/7/24.
 //
 
 import UIKit
