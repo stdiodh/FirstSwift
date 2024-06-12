@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  PageControl
+//  pageControl
 //
-//  Created by Ho-Jeong Song on 2022/11/13.
+//  Created by DH on 5/16/24.
 //
 
 import UIKit
